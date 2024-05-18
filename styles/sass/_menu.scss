@@ -14,8 +14,11 @@
   }
 
   .linesContainer {
-      position: relative;
-      span, span:before, span:after {
+    position: relative;
+
+    span,
+    span:before,
+    span:after {
       border-radius: 5px;
       width: 25px;
       height: 2px;
@@ -29,6 +32,7 @@
       top: 3px;
       left: -6px;
     }
+
     span:before {
       top: -10px;
     }
@@ -58,6 +62,10 @@
     letter-spacing: 1px;
     font-weight: 300;
     background-color: #773dc8;
+
+    img {
+      height: 50px;
+    }
   }
 
   nav {
@@ -87,7 +95,7 @@
       &:hover,
       &:focus {
         background-color: #9D69E5;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.2);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
       }
     }
   }
